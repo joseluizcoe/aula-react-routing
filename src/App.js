@@ -1,15 +1,19 @@
-import React, { Component } from 'react';
-import './App.css';
+import React from 'react';
 import Home from './components/Home';
+import About from './components/About';
+import Education from './components/Education';
+import Experience from './components/Experience';
+import './App.css';
 
-class App extends Component {
-  render() {
-    return (
-      <div className="App">
-        <Home />
-      </div>
-    );
-  }
+function App() {
+  return (
+    <div className="App">
+    <Home />
+    <About />
+    <Education />
+    <Experience />
+  </div>
+  );
 }
 
 export default App;

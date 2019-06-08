@@ -1,6 +1,6 @@
 import React from 'react';
 
-fuction home() {
+const home = () => {
   return (
     <div>
       <div>
